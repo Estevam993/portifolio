@@ -22,14 +22,17 @@ export default function AboutMe(): JSX.Element {
   }
 
   return (
-    <div>
+    <div
+      className={'h-[100vh] overflow-auto'}
+      style={{paddingBottom: '5rem', paddingTop: '2rem'}}
+    >
       <ProfilePhoto/>
-      <div className={'grid grid-flow-row sm:grid-cols-2 grid-cols-1 gap-4'}>
-
-        {infosObject.map(info => (
-          <Info key={info.name} infoCard={info}/>
-        ))}
-        
+      <div>
+        <div className={'grid grid-flow-row sm:grid-cols-2 grid-cols-1 gap-4'}>
+          {infosObject.map(info => (
+            <Info key={info.title} infoCard={info}/>
+          ))}
+        </div>
       </div>
     </div>
   )

@@ -19,7 +19,7 @@ export default function Info({infoCard}: {
       titleColor = '#e16666'
       break
     case 'pink':
-      color = 'border-[#66e18a] sm:border-[#b866e16b] hover:border-[#b866e1]'
+      color = 'border-[#b866e1] sm:border-[#b866e16b] hover:border-[#b866e1]'
       titleColor = '#b866e1'
       break
     case 'blue':
@@ -30,7 +30,7 @@ export default function Info({infoCard}: {
 
   return (
     <div
-      className={`shadow-md rounded-lg border-b-2 transition-all duration-300 ease-in-out ` + color}
+      className={`rounded-lg border-b-2 transition-all duration-300 ease-in-out ` + color}
       style={{
         padding: '1rem',
       }}

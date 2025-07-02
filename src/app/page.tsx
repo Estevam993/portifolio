@@ -8,7 +8,6 @@ export default function Home(): JSX.Element {
 
   return (
     <>
-      <Footer setView={setView}/>
       <div className="flex items-center justify-center h-screen w-screen -mx-auto">
         <MainContainer>
           {view === 'sobre_mim' && (
@@ -19,6 +18,7 @@ export default function Home(): JSX.Element {
           )}
         </MainContainer>
       </div>
+      <Footer setView={setView}/>
     </>
   );
 }

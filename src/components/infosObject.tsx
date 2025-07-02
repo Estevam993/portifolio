@@ -31,10 +31,10 @@ const experiencesInfo = {
   title: 'Experiência',
   description: (
     <div>
-      Teltex Tecnologia - Estagiário Desenvolvimento Fullstack<br/>
+      <strong>Teltex Tecnologia</strong> - Estagiário Desenvolvimento Fullstack<br/>
       Janeiro de 2024 - Junho de 2024<br/><br/>
 
-      Teltex Tecnologia - Assistente de Desenvolvimento Fullstack<br/>
+      <strong>Teltex Tecnologia</strong> - Assistente de Desenvolvimento Fullstack<br/>
       Junho de 2024 - Julho de 2025<br/>
 
     </div>
@@ -47,8 +47,8 @@ const educationInfo = {
   title: 'Educação',
   description: (
     <div>
-      SENAI Anchieta - Técnico em Mecatrônica<br/>
-      SENAC - Tecnólogo em Análise e Desenvolvimento de Sistemas
+      <strong>SENAI Anchieta</strong> - Técnico em Mecatrônica<br/>
+      <strong>SENAC</strong> - Tecnólogo em Análise e Desenvolvimento de Sistemas
     </div>
   )
 
