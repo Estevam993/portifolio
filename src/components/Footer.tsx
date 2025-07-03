@@ -1,6 +1,6 @@
 import {ReactElement} from "react";
 import {Menu} from "@/types";
-import {IconCode, IconHelpHexagon, IconMessage} from "@tabler/icons-react";
+import {IconCode, IconHelpHexagon, IconLink} from "@tabler/icons-react";
 import {Tooltip} from "@/components/index";
 
 const menus: Menu[] = [
@@ -15,9 +15,9 @@ const menus: Menu[] = [
     icon: <IconCode/>
   },
   {
-    name: 'Contatos',
-    path: 'contatos',
-    icon: <IconMessage/>
+    name: 'Links e Contatos',
+    path: 'links',
+    icon: <IconLink/>
   }
 ]
 

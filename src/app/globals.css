@@ -36,3 +36,19 @@ body {
     animation: typing 2s steps(30) forwards,
     blink 1s step-end infinite;
 }
+
+*::-webkit-scrollbar {
+    width: 1px;
+    height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2f3349;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
