@@ -1,4 +1,10 @@
-export default function StackContainer({label, color, children}) {
+import {JSX} from "react";
+
+export default function StackContainer({label, color, children}: {
+  label: string,
+  color: string,
+  children: JSX.Element
+}) {
 
   let startBorderColor
   let endBorderColor
