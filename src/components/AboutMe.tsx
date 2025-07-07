@@ -61,7 +61,7 @@ export default function AboutMe(): JSX.Element {
 
   const infos = (
     <div>
-      <div className={'grid grid-flow-row sm:grid-cols-2 grid-cols-1 gap-4'}>
+      <div className={'grid grid-flow-row lg:grid-cols-2 grid-cols-1 gap-4'}>
         {infosObject.map(info => (
           <Info key={info.title} infoCard={info}/>
         ))}
@@ -78,7 +78,7 @@ export default function AboutMe(): JSX.Element {
       {description}
       {infos}
 
-      <div className={'grid grid-flow-row sm:grid-cols-2 grid-cols-1 gap-4'}>
+      <div className={'grid grid-flow-row lg:grid-cols-2 grid-cols-1 gap-4'}>
         <StackContainer label={'Front End'} color={'blue'}>
           <StackLevel icon={<IconBrandHtml5/>} title={'HTML'} level={5} color={'blue'}/>
           <StackLevel icon={<IconBrandCss3/>} title={'CSS'} level={3} color={'blue'}/>

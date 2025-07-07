@@ -32,7 +32,7 @@ export default function useProjects() {
         }
       ],
       value: 'landing_page',
-      color: 'blue'
+      color: 'red'
     },
     {
       src: "/videos/admin_page.mp4",

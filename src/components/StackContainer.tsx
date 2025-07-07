@@ -1,10 +1,6 @@
-import {JSX} from "react";
+import {StackContainerType} from "@/types/stackContainer";
 
-export default function StackContainer({label, color, children}: {
-  label: string,
-  color: string,
-  children: JSX.Element
-}) {
+export default function StackContainer({label, color, children}: StackContainerType) {
 
   let startBorderColor
   let endBorderColor

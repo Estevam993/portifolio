@@ -2,6 +2,7 @@
 import {JSX, useState} from "react";
 
 import {AboutMe, Footer, MainContainer, Projects} from "@/components";
+import Links from "@/components/Links";
 
 export default function Home(): JSX.Element {
   const [view, setView] = useState('sobre_mim');
@@ -16,6 +17,11 @@ export default function Home(): JSX.Element {
           {view === 'projetos' && (
             <Projects/>
           )}
+          {
+            view === 'links' && (
+              <Links/>
+            )
+          }
         </MainContainer>
       </div>
       <Footer setView={setView}/>

@@ -1,5 +1,5 @@
 import {IconBriefcaseFilled, IconCirclePercentageFilled, IconFileCv, IconSchool} from "@tabler/icons-react";
-import {InfoCard} from "@/types";
+import {InfoCard} from "@/types/infoCard";
 
 const professionalInfo = {
   color: 'green',

@@ -1,5 +1,5 @@
 import {ReactElement} from "react";
-import {Menu} from "@/types";
+import {Menu} from "@/types/menu";
 import {IconCode, IconHelpHexagon, IconLink} from "@tabler/icons-react";
 import {Tooltip} from "@/components/index";
 
@@ -30,7 +30,7 @@ export default function Footer({setView}: { setView: (value: string) => void }):
   const Menus = ({menus}: { menus: Menu[] }) => {
     return (
       <div
-        className={'flex items-center gap-4'}
+        className={'flex items-center gap-8'}
       >
         {menus.map((menu, index) =>
           <div
