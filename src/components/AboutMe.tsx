@@ -90,8 +90,8 @@ export default function AboutMe(): JSX.Element {
           <StackLevel icon={<IconBrandNextjs/>} title={'Next'} level={4} color={'blue'}/>
         </StackContainer>
         <StackContainer label={'Back End'} color={'red'}>
-          <StackLevel icon={<IconBrandNodejs/>} title={'Node'} level={3} color={'red'}/>
-          <StackLevel icon={<IconBrandTypescript/>} title={'Nest'} level={2} color={'red'}/>
+          <StackLevel icon={<IconBrandNodejs/>} title={'Node'} level={4} color={'red'}/>
+          <StackLevel icon={<IconBrandTypescript/>} title={'Nest'} level={3} color={'red'}/>
           <StackLevel icon={<IconBrandPhp/>} title={'PHP'} level={5} color={'red'}/>
           <StackLevel icon={<IconBrandLaravel/>} title={'Laravel'} level={4} color={'red'}/>
           <StackLevel icon={<IconBrandCSharp/>} title={'ASP.net'} level={2} color={'red'}/>
