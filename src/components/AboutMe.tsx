@@ -82,12 +82,12 @@ export default function AboutMe(): JSX.Element {
       <div className={'grid grid-flow-row lg:grid-cols-2 grid-cols-1 gap-4'}>
         <StackContainer label={'Front End'} color={'blue'}>
           <StackLevel icon={<IconBrandHtml5/>} title={'HTML'} level={5} color={'blue'}/>
-          <StackLevel icon={<IconBrandCss3/>} title={'CSS'} level={3} color={'blue'}/>
+          <StackLevel icon={<IconBrandCss3/>} title={'CSS'} level={4} color={'blue'}/>
           <StackLevel icon={<IconBrandTailwind/>} title={'Tailwind'} level={3} color={'blue'}/>
-          <StackLevel icon={<IconBrandJavascript/>} title={'Javascript'} level={4} color={'blue'}/>
-          <StackLevel icon={<IconBrandTypescript/>} title={'Typescript'} level={3} color={'blue'}/>
-          <StackLevel icon={<IconBrandReact/>} title={'React'} level={3} color={'blue'}/>
-          <StackLevel icon={<IconBrandNextjs/>} title={'Next'} level={3} color={'blue'}/>
+          <StackLevel icon={<IconBrandJavascript/>} title={'Javascript'} level={5} color={'blue'}/>
+          <StackLevel icon={<IconBrandTypescript/>} title={'Typescript'} level={4} color={'blue'}/>
+          <StackLevel icon={<IconBrandReact/>} title={'React'} level={4} color={'blue'}/>
+          <StackLevel icon={<IconBrandNextjs/>} title={'Next'} level={4} color={'blue'}/>
         </StackContainer>
         <StackContainer label={'Back End'} color={'red'}>
           <StackLevel icon={<IconBrandNodejs/>} title={'Node'} level={3} color={'red'}/>
