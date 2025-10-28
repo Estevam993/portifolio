@@ -5,10 +5,10 @@ const professionalInfo = {
   color: 'green',
   icon: <IconBriefcaseFilled/>,
   title: 'Objetivo Profissional',
-  description: 'Busco oportunidades como desenvolvedor fullstack para aplicar minhas habilidades em JavaScript, utilizando\n' +
-    'frameworks modernos como React, Next.js e Nest.js. Meu objetivo é contribuir ativamente no desenvolvimento e\n' +
-    'manutenção de sistemas, sempre buscando aprimorar minhas competências e acompanhar as melhores práticas do\n' +
-    'mercado.'
+  description: 'Busco oportunidades como desenvolvedor fullstack para aplicar minhas habilidades, ' +
+    'utilizando frameworks modernos como Laravel, ASP.net React, Next.js e Nest.js. ' +
+    'Meu objetivo é contribuir ativamente no desenvolvimento e manutenção de sistemas, ' +
+    'sempre buscando aprimorar minhas competências e acompanhar as melhores práticas do mercado.'
 }
 
 const competencesInfo = {

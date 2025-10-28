@@ -6,6 +6,7 @@ import infosObject from './infosObject'
 import StackContainer from "@/components/StackContainer";
 import StackLevel from "@/components/StackLevel";
 import {
+  IconBrandCSharp,
   IconBrandCss3,
   IconBrandDocker,
   IconBrandFigma,
@@ -91,8 +92,9 @@ export default function AboutMe(): JSX.Element {
         <StackContainer label={'Back End'} color={'red'}>
           <StackLevel icon={<IconBrandNodejs/>} title={'Node'} level={3} color={'red'}/>
           <StackLevel icon={<IconBrandTypescript/>} title={'Nest'} level={2} color={'red'}/>
-          <StackLevel icon={<IconBrandPhp/>} title={'PHP'} level={4} color={'red'}/>
-          <StackLevel icon={<IconBrandLaravel/>} title={'Laravel'} level={3} color={'red'}/>
+          <StackLevel icon={<IconBrandPhp/>} title={'PHP'} level={5} color={'red'}/>
+          <StackLevel icon={<IconBrandLaravel/>} title={'Laravel'} level={4} color={'red'}/>
+          <StackLevel icon={<IconBrandCSharp/>} title={'ASP.net'} level={2} color={'red'}/>
         </StackContainer>
         <StackContainer label={'Data'} color={'pink'}>
           <StackLevel icon={<IconBrandMysql/>} title={'MySQL'} level={4} color={'pink'}/>
