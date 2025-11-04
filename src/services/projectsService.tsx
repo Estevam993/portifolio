@@ -1,4 +1,11 @@
-import {IconAlertCircle, IconAppWindowFilled, IconBrandGithub, IconUserFilled, IconWorldWww} from "@tabler/icons-react";
+import {
+  IconAlertCircle,
+  IconAppWindowFilled,
+  IconBrandGithub,
+  IconBrandSpotify,
+  IconUserFilled,
+  IconWorldWww
+} from "@tabler/icons-react";
 
 export default function useProjects() {
 
@@ -17,6 +24,11 @@ export default function useProjects() {
       icon: <IconAlertCircle/>,
       title: 'Challenge',
       value: 'front_end_challenge'
+    },
+    {
+      icon: <IconBrandSpotify/>,
+      title: 'Album Rating',
+      value: 'album_rating'
     },
   ]
 
@@ -68,6 +80,18 @@ export default function useProjects() {
       ],
       value: 'front_end_challenge',
       color: 'green'
+    },
+    {
+      src: "/videos/album_rating.mp4",
+      description: "Aplicação back-end em C# com integração ao Spotify, permitindo pesquisa de álbuns e criação de avaliações personalizadas.",
+      url: [{
+        url: 'https://github.com/Estevam993/AlbumRating',
+        label: 'album-rating',
+        icon: <IconBrandGithub/>
+      },
+      ],
+      value: 'album_rating',
+      color: 'yellow'
     }
   ]
 
